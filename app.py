@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 import numpy as np
 
 # Load the pre-trained TensorFlow model\
-model_path = "FFC-Dog-Cat-Classifier/dog_cat_classifier_model.h5"
+model_path = "dog_cat_classifier_model.h5"
 
 model = tf.keras.models.load_model(model_path)
 
