@@ -3,8 +3,10 @@ import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
 
-# Load the pre-trained TensorFlow model
-model = tf.keras.models.load_model('dog_cat_classifier_model.h5')
+# Load the pre-trained TensorFlow model\
+model_path = "FFC-Dog-Cat-Classifier/dog_cat_classifier_model.h5"
+
+model = tf.keras.models.load_model(model_path)
 
 # Define a function to preprocess the uploaded image
 def preprocess_image(image):
@@ -19,7 +21,6 @@ def preprocess_image(image):
         
         image = image[..., :3]
     # Normalize the image (if necessary, depends on how your model was trained)
-    image = image / 255.0  # If your model requires normalized input
 
      # Check the image shape
     if image.shape != (150, 150, 3):
