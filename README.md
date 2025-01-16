@@ -1,4 +1,4 @@
-# 🐱 Dog vs Cat Classifier 🐶
+# 🐱 Dog vs Cat Image Classifier 🐶
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Latest-orange.svg)
@@ -32,3 +32,11 @@ A deep learning image classification model that distinguishes between dogs and c
 - Python 3.8+
 - CUDA-capable GPU (optional, for faster processing)
 - 8GB RAM minimum
+Contributing
+Contributions are welcome! If you have suggestions for improvements or additional features, please open an issue or submit a pull request.
+
+### Acknowledgments
+Thank you to all the contributors and data sources that made this project possible.
+### Contact
+For any inquiries or feedback, feel free to reach out to me at **edgarabasov1@gmail.com**
+
